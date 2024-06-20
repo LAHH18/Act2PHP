@@ -44,7 +44,6 @@
     <?php
     #Verifica si el formulario fue mandado por post
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        #Variables
         $num = $_POST['numero'];
         $opc = $_POST['opcion'];
         $res = "";
@@ -64,7 +63,7 @@
                 break;
         }
 
-        echo "<div class='container text-center bg-dark text-white mt-5>'>";
+        echo "<div class='container text-center bg-dark text-white mt-5'>";
         echo "<h2>Resultado:</h2>";
         echo "</div>";
         echo "<div class='container text-center'>";
